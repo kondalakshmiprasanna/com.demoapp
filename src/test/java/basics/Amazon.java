@@ -49,6 +49,12 @@ public class Amazon {
 		System.out.println("Verified");
 	}
 	
+	@Test
+	public void verifyAccountPage()
+	{
+		System.out.println("Account Verified");
+	}
+	
 	@AfterTest
 	public void tearDown()
 	{
