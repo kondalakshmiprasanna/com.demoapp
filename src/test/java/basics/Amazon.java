@@ -43,6 +43,12 @@ public class Amazon {
 		Assert.assertEquals(actualUrl, "https://www.facebook.com/");
 	}
 	
+	@Test
+	public void verifyHomePage()
+	{
+		System.out.println("Verified");
+	}
+	
 	@AfterTest
 	public void tearDown()
 	{
