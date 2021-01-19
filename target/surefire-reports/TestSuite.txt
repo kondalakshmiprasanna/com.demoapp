@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 1.718 s <<< FAILURE! - in TestSuite
+basics.Fb.setUp  Time elapsed: 1.325 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/http/HttpRequest
+	at basics.Fb.setUp(Fb.java:22)
+Caused by: java.lang.ClassNotFoundException: org.apache.http.HttpRequest
+	at basics.Fb.setUp(Fb.java:22)
+
